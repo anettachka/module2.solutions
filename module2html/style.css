@@ -1,0 +1,129 @@
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-size: 27px;
+	font-family: Arial;
+	text-align: center;
+	color: rgb(0,0,0);
+	margin-bottom: 30px;
+}
+p{
+	padding: 15px 5px 0px 5px;
+	font-family: Arial;
+	font-size: 16px;
+	position: relative;
+}
+.section {
+	background-color: rgb(150, 150, 150);
+	border: 2px solid black;
+	margin-top: 20px;
+	padding: 3px;
+	text-align: justify;
+	position: relative;
+}
+span {
+	font-size: 20px;
+	width: 150px;
+	border: 1px solid black;
+	font-weight: bold;
+	text-align: center;
+	float: right; top:0; right:0; margin:0;
+
+}
+#nr1 {
+	background-color: #FF7F50;
+	color: rgb(250, 250, 250);
+}
+#nr2 {
+	background-color: rgb(250, 0, 0);
+	color: rgb(250, 250, 250);
+}
+#nr3 {
+	background-color: rgb(200, 200, 100);
+	color: rgb(0, 0, 0);
+
+}
+}
+.row {
+	width:100%;
+}
+/* Dekstop PC view */
+
+@media (min-width: 992px)
+{
+	.col-lg-4{
+		width: 33.33%;
+		float: left;
+	}
+}
+
+/* Tablet PC view */
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6{
+		width: 50%;
+		float: left;
+	}
+	.col-md-12{
+		width:100%;
+		float: left;
+	}
+}
+
+/* Cell phone view */
+@media (max-width: 767px){
+	.col-sx-12 {
+		float: left;
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
